@@ -29,7 +29,7 @@ public class Bilde extends Tekst {
 	@Override
 	public String toString() {
 		
-		return "BILDE\n" + super.toString() + url + "\n";
+		return "BILDE\n" + super.toString() + url + "\n";  // den henter super.toString fra Tekst og ikke innlegg, derfor kommer TEKST med på starten
 
 	}
 
